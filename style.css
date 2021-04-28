@@ -17,10 +17,10 @@
 } */
 
 body {
-  background-attachment: fixed;
+  /* background-attachment: fixed;
   margin: 0;
-  background-image: linear-gradient(to bottom, #595F72, #58B09C);
-  /* background-color: #FCF7F8; */
+  background-image: linear-gradient(to bottom, #595F72, #58B09C); */
+  background-color: #FCF7F8;
   padding: 10px 50px;
 }
 
