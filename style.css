@@ -1,32 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Ubuntu:wght@300;500;700&display=swap');
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
+/* @media (max-width: 960px) {
   .container {
     width: 700px;
   }
 }
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
   }
 }
 @media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
   }
-}
+} */
 
 body {
+  background-attachment: fixed;
   margin: 0;
-  --c : rgba(255,255,255,1);
-  --t : transparent;
-  background-image:
-  repeating-linear-gradient(45deg, var(--c) 0, var(--c) 20px, var(--t) 20px, var(--t) 32px, var(--c) 32px, var(--c) 44px, var(--t) 44px, var(--t) 56px, var(--c) 56px, var(--c) 68px, var(--t) 68px, var(--t) 80px, var(--c) 0),
-  repeating-linear-gradient(-45deg, var(--c) 0, var(--c) 20px, var(--t) 20px, var(--t) 32px, var(--c) 32px, var(--c) 44px, var(--t) 44px, var(--t) 56px, var(--c) 56px, var(--c) 68px, var(--t) 68px, var(--t) 80px, var(--c) 0),
-  linear-gradient(to bottom right, #FC7753, #58B09C);
+  background-image: linear-gradient(to bottom, #595F72, #58B09C);
+  /* background-color: #FCF7F8; */
   padding: 10px 50px;
 }
 
@@ -51,6 +45,11 @@ h1, h2 {
 .btn-green:hover {
   background-color: #58B09C;
   color: white;
+}
+
+.btn-green:active {
+  background-color: #595F72;
+  border: 0px solid #58B09C;
 }
 
 .fab:hover {
@@ -80,7 +79,7 @@ div {
   border-radius: 6px;
   box-shadow: 2px 2px 10px rgb(0 0 0 / 5%);
   margin: 20px auto;
-  width: 600px;
+  width: 800px;
   padding: 40px;
   text-align: center;
 }
@@ -103,4 +102,8 @@ div {
 
 .list-inline li {
   display: inline;
+}
+
+video {
+  box-shadow: 2px 2px 10px rgb(0 0 0 / 5%);;
 }
